@@ -1,0 +1,48 @@
+body {
+    font-family: "Creepster";
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+h1, label, .card-title {
+    color: #ff6600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+fieldset {
+    border: 2px solid #ff6600;
+}
+
+footer {
+    background-color: #222222;
+    color: #cccccc;
+}
+
+.card {
+    background-color: #333333;
+    border: none;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    transition: transform 0.3s linear;
+}
+
+.card-text {
+    color: #cccccc;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
